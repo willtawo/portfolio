@@ -1,0 +1,129 @@
+# Expense Tracker
+
+Expense Tracker is a simple Python application that allows you to manage and track your expenses. It provides features to add, edit, and delete expenses, generate reports, set budgets, and visualize expense distributions. Additionally, you can export expense reports to both PDF and Excel formats.
+
+## Prerequisites
+
+Before using Expense Tracker, ensure you have the following libraries installed:
+
+- sqlite3
+- matplotlib
+- reportlab
+- pandas
+
+You can install these libraries using pip:
+
+
+pip install sqlite3 matplotlib reportlab pandas
+```
+
+## Usage
+
+### 1. Create Expense Table
+
+Before using the application, you need to initialize the expense database by creating an expense table. Run the following function to create the table:
+
+```python
+create_expense_table()
+```
+
+### 2. Create Budget Table
+
+Create a budget table to set your budgets. Run the following function:
+
+```python
+create_budget_table()
+```
+
+### 3. Add Expense
+
+To add an expense, enter the date, description, category, and amount. Run the following function:
+
+```python
+add_expense()
+```
+
+### 4. View Expenses
+
+View your expenses using this function:
+
+```python
+view_expenses(get_expenses())
+```
+
+### 5. Generate Report
+
+Generate an expense report with the following options:
+
+- Expense Summary by Category
+- Filter Expenses by Date Range
+
+Run the function below:
+
+```python
+generate_report(get_expenses())
+```
+
+### 6. Visualize Expense Distribution
+
+Visualize the distribution of your expenses by category using a pie chart. Run:
+
+```python
+visualize_expense_distribution(get_expenses())
+```
+
+### 7. Export Report to PDF
+
+Export your expense report to a PDF file using this function:
+
+```python
+export_report_to_pdf(get_expenses(), "expense_report.pdf")
+```
+
+### 8. Export Report to Excel
+
+Export your expense report to an Excel file with the following function:
+
+```python
+export_report_to_excel(get_expenses(), "expense_report.xlsx")
+```
+
+### 9. Set Budget
+
+Set budgets for your expenses by specifying the category, amount, and period (e.g., monthly or weekly). Use this function:
+
+```python
+set_budget()
+```
+
+### 10. View Budget
+
+View your set budgets with the following function:
+
+```python
+view_budgets()
+```
+
+### 11. Edit Expense
+
+Edit an existing expense by providing the expense ID and the updated details:
+
+```python
+edit_expense()
+```
+
+### 12. Delete Expense
+
+Delete an existing expense by specifying the expense ID:
+
+```python
+delete_expense()
+```
+
+### 13. Quit
+
+Exit the application.
+
+## License
+
+This project is licensed under the MIT License. You are free to use and modify the code according to the terms of the MIT License. See the [LICENSE](LICENSE) file for more details.
