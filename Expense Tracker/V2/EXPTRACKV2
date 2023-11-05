@@ -1,0 +1,98 @@
+# Expense Tracker Readme
+
+This is an Expense Tracker Python program that allows you to manage your expenses and budgets. It provides a command-line interface for various functions, including adding expenses, setting budgets, generating reports, and visualizing expense distributions. Here's how you can use it:
+
+## Getting Started
+
+1. **Install Dependencies**: Ensure you have the required Python libraries installed. You can install them using pip if you don't have them already.
+
+    ```bash
+    pip install matplotlib reportlab pandas graphviz
+    ```
+
+2. **Database Setup**: The program uses an SQLite database named `expense_tracker.db` to store expenses and budgets. The database and necessary tables will be created automatically when you run the program.
+
+## Usage
+
+Run the `expense_tracker1.py` program from your terminal:
+
+```bash
+python3 expense_tracker1.py
+```
+
+You will see a menu with several options. Here's a brief overview of each option:
+
+1. **Add Expense**: Enter information about a new expense (date, description, category, subcategory, and amount).
+
+2. **Edit Expense**: Edit an existing expense by providing its ID and updated details.
+
+3. **Delete Expense**: Delete an expense by providing its ID.
+
+4. **View Expenses**: Display a list of all recorded expenses.
+
+5. **Generate Report**: Generate an expense report, including total expenses for each category.
+
+6. **Visualize Expense Distribution (Tree Diagram)**: Create a hierarchical tree diagram of expense distribution using Graphviz. This option may require additional dependencies to visualize the graph.
+
+7. **Export Expense Report to PDF**: Export the expense report to a PDF file.
+
+8. **Export Expense Report to Excel**: Export the expense report to an Excel file.
+
+9. **Set Budget**: Set a budget for a category, subcategory, amount, and period (monthly/weekly).
+
+10. **View Budgets**: Display a list of all set budgets.
+
+11. **Delete Budget**: Delete a budget by providing its ID.
+
+12. **Set Monthly Income (Biweekly)**: Set your monthly income based on a biweekly schedule.
+
+13. **View Monthly Income**: Display your monthly income.
+
+14. **View Remaining Budget**: Calculate and display the remaining budget by category.
+
+15. **View Estimated Monthly Balance**: Estimate your monthly balance based on your income and expenses.
+
+16. **Quit**: Exit the program.
+
+## Features
+
+- **Expense Tracking**: You can add, edit, and delete expenses, as well as view all recorded expenses.
+
+- **Budget Management**: Set budgets for different categories and subcategories, and view a list of all set budgets.
+
+- **Income Management**: Set your monthly income based on a biweekly schedule and view your monthly income.
+
+- **Expense Reporting**: Generate expense reports with total expenses for each category.
+
+- **Visualization**: Visualize expense distribution as a hierarchical tree diagram (Graphviz required).
+
+- **Export Reports**: Export expense reports to PDF and Excel formats.
+
+- **Remaining Budget**: Calculate and display the remaining budget by category.
+
+- **Estimated Monthly Balance**: Estimate your monthly balance based on your income and expenses.
+
+## Dependencies
+
+- sqlite3
+- matplotlib
+- reportlab
+- pandas
+- graphviz
+- collections
+
+## Notes
+
+- The program creates an SQLite database named `expense_tracker.db` to store expenses and budgets.
+
+- Graphviz is required to visualize the expense distribution as a tree diagram. Make sure you have Graphviz installed and added to your system's PATH to use this feature.
+
+- You can customize this program to fit your specific needs and enhance its functionality.
+
+## Author
+
+WILL OKOJIE
+
+## License
+
+This project is licensed under the MIT License.

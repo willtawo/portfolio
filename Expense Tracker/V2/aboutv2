@@ -1,0 +1,57 @@
+# Expense Tracker (Version 2)
+
+Expense Tracker (Version 2) is an upgraded version of the original Expense Tracker (Version 1). It is a Python application designed to help you manage and track your expenses, create budgets, and generate reports. This updated version incorporates new features and improvements over its predecessor. Here's what's new in Expense Tracker (Version 2):
+
+## New Features and Updates
+
+### 1. Enhanced Expense Table Structure
+
+- The `expenses` table structure has been updated to include a primary key field, `id`, for better data management.
+- The expense table now records the date, description, category, and amount of each expense.
+
+### 2. Monthly Income Tracking
+
+- You can set a biweekly income, and the application calculates your monthly income based on it. This provides a more accurate representation of your financial situation.
+
+### 3. Budget Management
+
+- The ability to set, view, and delete budgets has been added.
+- Budgets are categorized by category, subcategory (optional), amount, and period (monthly or weekly).
+
+### 4. Estimated Monthly Balance
+
+- Expense Tracker (Version 2) now estimates your monthly balance by subtracting your total expenses from your monthly income. This provides insights into your financial health.
+
+### 5. Improved Expense Reports
+
+- You can generate expense reports with two options:
+  - **Expense Summary by Category**: Provides a summary of expenses by category.
+  - **Filter Expenses by Date Range**: Filters expenses based on a specified date range.
+
+### 6. Visualization of Expense Distribution
+
+- The application now includes the capability to visualize expense distribution using a pie chart. This feature allows you to see how your expenses are distributed across categories.
+
+### 7. Export Reports to PDF and Excel
+
+- You can export your expense reports to both PDF and Excel formats, making it easy to save and share your financial data.
+
+### 8. Improved User Interface
+
+- The menu system has been updated to offer a more user-friendly and intuitive experience.
+
+### 9. Updated Readme
+
+- The readme file has been updated to provide clear instructions on how to use Expense Tracker (Version 2), including installation requirements and step-by-step usage guidelines.
+
+## Prerequisites
+
+Before using Expense Tracker (Version 2), ensure you have the necessary libraries installed, as mentioned in the updated readme file.
+
+## How to Use
+
+Refer to the provided updated readme file for comprehensive instructions on how to use Expense Tracker (Version 2).
+
+## License
+
+Expense Tracker (Version 2) is licensed under the MIT License, allowing you to use and modify the code within the terms of the MIT License. For more information, refer to the [LICENSE](LICENSE) file in the project repository.
